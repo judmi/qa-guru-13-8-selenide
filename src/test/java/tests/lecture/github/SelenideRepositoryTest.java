@@ -1,4 +1,4 @@
-package lecture.github;
+package tests.lecture.github;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +9,7 @@ public class SelenideRepositoryTest {
 
     @Test
     void shouldFindSelenideAsFirstRepository() {
-        //open lecture.github.com
+        //open tests.lecture.github.com
         open("https://github.com");
         //input in search "Selenide" and press Enter
         $("[data-test-selector='nav-search-input']").setValue("selenide").pressEnter();

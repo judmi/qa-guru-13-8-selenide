@@ -1,4 +1,4 @@
-package lecture.github;
+package tests.lecture.github;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package lecture.selenide;
+package tests.lecture.selenide;
 
 import com.codeborne.selenide.*;
 import org.openqa.selenium.Keys;
@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 // this is not a full list, just the most common
-public class Snippets { 
+public class Snippets {
 
     void browser_command_examples() {
 
